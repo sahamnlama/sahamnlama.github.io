@@ -34,8 +34,9 @@ $.ajax ({
     success: function (res){
       //console.log(res);
       //console.log("ICE List: "+res.v.iceServers);
-      customConfig = [{url:'stun:stun01.sipphone.com'},
-      {url:'stun:stun.l.google.com:19302'},
+      customConfig = [{url:'stun:stun.l.google.com:19302'},
+      {url:'stun:stun01.sipphone.com'},
+
 {url:'stun:stun.ekiga.net'},
 {url:'stun:stun.fwdnet.net'},
 {url:'stun:stun.ideasip.com'},
