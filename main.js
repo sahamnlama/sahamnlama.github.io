@@ -32,7 +32,8 @@ $.ajax ({
       "Authorization": "Basic " + btoa("sahanlama:c80aabec-c274-11e8-811f-2da4a73120a1")
     },
     success: function (res){
-      console.log("ICE List: "+res.v.iceServers);
+      console.log(res);
+      //console.log("ICE List: "+res.v.iceServers);
       customConfig =res.v.iceServers;
       console.log(customConfig);
     }
