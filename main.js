@@ -34,7 +34,7 @@ $.ajax ({
     success: function (res){
       //console.log(res);
       //console.log("ICE List: "+res.v.iceServers);
-      customConfig = {{url:'stun:stun01.sipphone.com'},
+      customConfig = {url:'stun:stun01.sipphone.com'},
 {url:'stun:stun.ekiga.net'},
 {url:'stun:stun.fwdnet.net'},
 {url:'stun:stun.ideasip.com'},
@@ -67,9 +67,9 @@ $.ajax ({
 	url: 'turn:192.158.29.39:3478?transport=tcp',
 	credential: 'JZEOEt2V3Qb0y27GRntt2u2PAYA=',
 	username: '28224511:1379330808'
-}};
+};
       console.log(customConfig);
-    }
+}
 });
 
 
